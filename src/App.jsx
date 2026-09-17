@@ -175,24 +175,6 @@ export default function SapparotVerde() {
     image: 'url("/images/cardholder-2.png")',
     imageAlt: 'Pineapple leather card holder with embossed mandala design'
   },
-  {
-    id: 3,
-    name: 'Bifold Wallet',
-    variant: 'Classic',
-    category: 'Wallets',
-    description: 'Hand-stitched bifold wallet with embossed mandala pattern. Multiple card slots.',
-    image: 'url("/images/wallet-1.png")',
-    imageAlt: 'Bifold pineapple leather wallet showing interior card slots'
-  },
-  {
-    id: 4,
-    name: 'Bifold Wallet',
-    variant: 'Heritage',
-    category: 'Wallets',
-    description: 'Premium bifold with hand-tooled Thai patterns. Coin pocket included.',
-    image: 'url("/images/wallet-2.png")',
-    imageAlt: 'Heritage-inspired bifold wallet in pineapple leather'
-  }
 ];
 
   return (
