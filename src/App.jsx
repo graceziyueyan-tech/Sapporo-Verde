@@ -156,62 +156,65 @@ export default function SapparotVerde() {
     }
   };
 
-  const products = [
-    {
-      id: 1,
-      name: 'Card Holder',
-      variant: 'Geometric Diamond',
-      category: 'Accessories',
-      description: 'Minimalist card holder with Thai-inspired diamond pattern. Holds up to 4 cards.',
-      image: 'url("/1789000308432_image.png")',
-      imageAlt: 'Thai-inspired pineapple leather card holder with geometric pattern'
-    },
-    {
-      id: 2,
-      name: 'Bifold Wallet',
-      variant: 'Classic',
-      category: 'Wallets',
-      description: 'Hand-stitched bifold wallet with embossed mandala pattern. Multiple card slots.',
-      image: 'url("/1789000595236_image.png")',
-      imageAlt: 'Bifold pineapple leather wallet showing interior card slots'
-    },
-    {
-      id: 3,
-      name: 'Card Holder',
-      variant: 'Mandala Emboss',
-      category: 'Accessories',
-      description: 'Card holder featuring traditional Thai mandala motif. Handcrafted detailing.',
-      image: 'url("/1789000308432_image.png")',
-      imageAlt: 'Pineapple leather card holder with embossed mandala design'
-    },
-    {
-      id: 4,
-      name: 'Bifold Wallet',
-      variant: 'Diamond Pattern',
-      category: 'Wallets',
-      description: 'Geometric pattern bifold with subtle hand-stitching. Fits standard bill fold.',
-      image: 'url("/1789000595236_image.png")',
-      imageAlt: 'Bifold wallet in pineapple leather with diamond geometric pattern'
-    },
-    {
-      id: 5,
-      name: 'Card Holder',
-      variant: 'Minimal',
-      category: 'Accessories',
-      description: 'Sleek cardholder without embossing. Pure pineapple leather with contrast stitching.',
-      image: 'url("/1789000308432_image.png")',
-      imageAlt: 'Minimal pineapple leather card holder'
-    },
-    {
-      id: 6,
-      name: 'Bifold Wallet',
-      variant: 'Heritage',
-      category: 'Wallets',
-      description: 'Premium bifold with hand-tooled Thai patterns. Coin pocket included.',
-      image: 'url("/1789000595236_image.png")',
-      imageAlt: 'Heritage-inspired bifold wallet in pineapple leather'
-    }
-  ];
+const products = [
+  {
+    id: 1,
+    name: 'Card Holder',
+    variant: 'Geometric Diamond',
+    category: 'Accessories',
+    description: 'Minimalist card holder with Thai-inspired diamond pattern. Holds up to 4 cards.',
+    image: 'url("/images/cardholder-1.png")',
+    imageAlt: 'Thai-inspired pineapple leather card holder with geometric pattern'
+  },
+  {
+    id: 2,
+    name: 'Card Holder',
+    variant: 'Mandala Emboss',
+    category: 'Accessories',
+    description: 'Card holder featuring traditional Thai mandala motif. Handcrafted detailing.',
+    image: 'url("/images/cardholder-2.png")',
+    imageAlt: 'Pineapple leather card holder with embossed mandala design'
+  },
+  {
+    id: 3,
+    name: 'Bifold Wallet',
+    variant: 'Classic',
+    category: 'Wallets',
+    description: 'Hand-stitched bifold wallet with embossed mandala pattern. Multiple card slots.',
+    image: 'url("/images/wallet-1.png")',
+    imageAlt: 'Bifold pineapple leather wallet showing interior card slots'
+  },
+  {
+    id: 4,
+    name: 'Bifold Wallet',
+    variant: 'Heritage',
+    category: 'Wallets',
+    description: 'Premium bifold with hand-tooled Thai patterns. Coin pocket included.',
+    image: 'url("/images/wallet-2.png")',
+    imageAlt: 'Heritage-inspired bifold wallet in pineapple leather'
+  }
+];
+Click "Commit changes"
+Wait 30 seconds and refresh your site
+What You Need to Do Next
+
+Add your 4 product photos to the project:
+
+Create a public/images/ folder in your GitHub:
+Click "Add file" → "Create new file"
+Type: public/images/.gitkeep
+Commit (this creates the folder)
+Upload your 4 photos:
+Name them exactly:
+cardholder-1.png (first cardholder photo)
+cardholder-2.png (second cardholder photo)
+wallet-1.png (first wallet photo)
+wallet-2.png (second wallet photo)
+Upload each to public/images/
+
+Now your site will show 2 beautiful cardholders + 2 beautiful wallets with your actual photos!
+
+Want to change the product descriptions or add more photos later? Just let me know! 🍍
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#FAF9F7', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
