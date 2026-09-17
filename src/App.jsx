@@ -157,23 +157,22 @@ export default function SapparotVerde() {
   };
 
   const products = [
-  {
-    id: 1,
-    name: 'Sapbparot Verde Cardholder',
-    category: 'Accessories',
-    description: 'A slim, lightweight cardholder made from pineapple-leaf leather. Its minimalist design keeps your essentials organized while subtle Thai-inspired details add character, transforming agricultural waste into a practical accessory for everyday use..',
-    image: 'url("/images/cardholder-1.png")',
-    imageAlt: 'Thai-inspired pineapple leather card holder with geometric pattern'
-  },
-  {
-    id: 2,
-    name: 'Sapbparot Verde Wallet',
-    category: 'Accessories',
-    description: 'A sleek everyday wallet crafted from innovative pineapple-leaf leather. Designed to carry your essential cards and cash without unnecessary bulk, it combines Thai-inspired details with modern functionality while giving agricultural waste a second life.,
-    image: 'url("/images/cardholder-2.png")',
-    imageAlt: 'Pineapple leather card holder with embossed mandala design'
-  },
-];
+{
+  id: 1,
+  name: 'Sapbparot Verde Cardholder',
+  category: 'Accessories',
+  description: 'A slim, lightweight cardholder made from pineapple-leaf leather. Its minimalist design keeps your essentials organized while subtle Thai-inspired details add character, transforming agricultural waste into a practical accessory for everyday use.',
+  image: '/images/cardholder-1.png',
+  imageAlt: 'Thai-inspired pineapple leather card holder with geometric pattern'
+},
+{
+  id: 2,
+  name: 'Sapbparot Verde Wallet',
+  category: 'Accessories',
+  description: 'A sleek everyday wallet crafted from innovative pineapple-leaf leather. Designed to carry your essential cards and cash without unnecessary bulk, it combines Thai-inspired details with modern functionality while giving agricultural waste a second life.',
+  image: '/images/cardholder-2.png',
+  imageAlt: 'Pineapple leather card holder with embossed mandala design'
+},;
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#FAF9F7', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
