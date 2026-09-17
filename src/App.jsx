@@ -156,7 +156,7 @@ export default function SapparotVerde() {
     }
   };
 
-const products = [
+  const products = [
   {
     id: 1,
     name: 'Card Holder',
@@ -194,27 +194,6 @@ const products = [
     imageAlt: 'Heritage-inspired bifold wallet in pineapple leather'
   }
 ];
-Click "Commit changes"
-Wait 30 seconds and refresh your site
-What You Need to Do Next
-
-Add your 4 product photos to the project:
-
-Create a public/images/ folder in your GitHub:
-Click "Add file" → "Create new file"
-Type: public/images/.gitkeep
-Commit (this creates the folder)
-Upload your 4 photos:
-Name them exactly:
-cardholder-1.png (first cardholder photo)
-cardholder-2.png (second cardholder photo)
-wallet-1.png (first wallet photo)
-wallet-2.png (second wallet photo)
-Upload each to public/images/
-
-Now your site will show 2 beautiful cardholders + 2 beautiful wallets with your actual photos!
-
-Want to change the product descriptions or add more photos later? Just let me know! 🍍
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#FAF9F7', fontFamily: 'system-ui, -apple-system, sans-serif' }}>
