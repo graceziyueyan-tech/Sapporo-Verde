@@ -159,19 +159,17 @@ export default function SapparotVerde() {
   const products = [
   {
     id: 1,
-    name: 'Card Holder',
-    variant: 'Geometric Diamond',
+    name: 'Sapbparot Verde Cardholder',
     category: 'Accessories',
-    description: 'Minimalist card holder with Thai-inspired diamond pattern. Holds up to 4 cards.',
+    description: 'A slim, lightweight cardholder made from pineapple-leaf leather. Its minimalist design keeps your essentials organized while subtle Thai-inspired details add character, transforming agricultural waste into a practical accessory for everyday use..',
     image: 'url("/images/cardholder-1.png")',
     imageAlt: 'Thai-inspired pineapple leather card holder with geometric pattern'
   },
   {
     id: 2,
-    name: 'Card Holder',
-    variant: 'Mandala Emboss',
+    name: 'Sapbparot Verde Wallet',
     category: 'Accessories',
-    description: 'Card holder featuring traditional Thai mandala motif. Handcrafted detailing.',
+    description: 'A sleek everyday wallet crafted from innovative pineapple-leaf leather. Designed to carry your essential cards and cash without unnecessary bulk, it combines Thai-inspired details with modern functionality while giving agricultural waste a second life.,
     image: 'url("/images/cardholder-2.png")',
     imageAlt: 'Pineapple leather card holder with embossed mandala design'
   },
